@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #f8f8f8; /* Background for the entire page */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+}
+
+.book-library {
+    background-color: #ffffff; /* Container background color */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center books */
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.book {
+    background-color: #fff; /* Background for each book block */
+    border: 1px solid #ddd; /* Border for the book block */
+    border-radius: 8px; /* Rounded corners */
+    margin: 10px; /* Margin around book blocks */
+    padding: 15px; /* Padding inside book blocks */
+    text-align: center; /* Center align text */
+    width: 200px; /* Set a fixed width for each book block */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for book blocks */
+}
+
+.book img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional rounded corners for images */
+}
+
+.author {
+    color: #777777; /* Author color */
+    margin: 5px 0; /* Margin around author text */
+}
+
+.price {
+    background-color: #2ecc71; /* Price block color */
+    color: white; /* Text color */
+    padding: 5px; /* Padding inside price block */
+    border-radius: 4px; /* Rounded corners */
+    display: inline-block; /* Fit to content */
+    margin-top: 5px; /* Margin above price block */
+}
